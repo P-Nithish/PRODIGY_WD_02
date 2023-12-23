@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="icons.png" type="image/png">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="stopwatch">
+        <div class="display">
+            <p class="name">Stopwatch</p>
+            <input type="text" value="00:00:00:000" id="Timer">
+
+        </div>
+        <div class="controls">
+            <button class="btn1"><i class="fa fa-play"></i> Play</button>
+            <button class="btn2"><i class="fa fa-pause"></i> Pause</button>
+            <button class="btn3"><i class="fa fa-flag"></i> Lap</button>
+            <button class="btn4"><i class="fa fa-refresh"></i> Reset</button>
+        </div>
+        <ul id="lapsList"></ul>
+
+    </div>
+</body>
+</html>
